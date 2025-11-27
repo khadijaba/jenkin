@@ -10,7 +10,7 @@ pipeline {
         stage('GIT') {
             steps {
                 // Récupère le code depuis Git
-                git branch: 'master',
+                git branch: 'main',
                     url: 'https://github.com/khadijaba/jenkin.git'
             }
         }
