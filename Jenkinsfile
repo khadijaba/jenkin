@@ -1,17 +1,17 @@
 pipeline {
     agent any
 
-    tools { 
-        jdk 'JAVA_HOME'    // nom du JDK configuré dans Jenkins
-        maven 'M2_HOME'    // nom de Maven configuré dans Jenkins
+    tools {
+        jdk 'JAVA_HOME'
+        maven 'M2_HOME'
     }
 
     stages {
+
         stage('GIT') {
             steps {
-                // Récupère le code depuis Git
-                git branch: 'main',
-                    url: 'https://github.com/khadijaba/jenkin.git'
+                git branch: 'master',
+                    url: 'https://github.com/hwafa/timesheetproject.git'
             }
         }
 
