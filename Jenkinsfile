@@ -11,7 +11,7 @@ pipeline {
         stage('GIT') {
             steps {
                 git branch: 'master',
-                    url: 'https://github.com/hwafa/timesheetproject.git'
+                    url: 'https://github.com/khadijaba/jenkin.git'
             }
         }
 
