@@ -11,7 +11,7 @@ pipeline {
             steps {
                 // Récupère le code depuis Git
                 git branch: 'master',
-                    url: 'https://github.com/hwafa/timesheetproject.git'
+                    url: 'https://github.com/khadijaba/jenkin.git'
             }
         }
 
