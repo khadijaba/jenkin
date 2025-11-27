@@ -2,13 +2,12 @@ pipeline {
     agent any
 
     stages {
-        stage('Maven Version') {
+        stage('Hello') {
             steps {
-                // Affiche la version de Maven installée
-                sh 'mvn -v'
+                echo 'Hello World !'
             }
         }
     }
 }
 
-}
+
