@@ -1,0 +1,14 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Maven Version') {
+            steps {
+                // Affiche la version de Maven installée
+                sh 'mvn -v'
+            }
+        }
+    }
+}
+
+}
