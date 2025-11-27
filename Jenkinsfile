@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 pipeline {
     agent any
 
@@ -21,4 +22,7 @@ pipeline {
             }
         }
     }
+=======
+pipeline{
+>>>>>>> 1468365 (Initial commit: projet Maven avec Jenkinsfile)
 }
