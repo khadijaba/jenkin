@@ -22,7 +22,3 @@ pipeline {
             }
         }
     }
-=======
-pipeline{
->>>>>>> 1468365 (Initial commit: projet Maven avec Jenkinsfile)
-}
